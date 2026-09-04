@@ -19,13 +19,13 @@ class Offline {
       const magnetSize = Number.parseFloat(size);
       return magnetSize > 314572800 || magnetSize < 1;
     },
-    max: 20,
+    max: 10,
   };
 
   static defaultVerifyOptions = {
     filter: ({ s }) => s > 157286400,
     clean: true,
-    max: 10,
+    max: 20,
   };
 
   static defaultRenameTxt = {
