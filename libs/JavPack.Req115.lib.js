@@ -235,7 +235,7 @@ class Req115 extends Drive115 {
   static async handleVerify(info_hash, { regex, codes }, { max, filter }) {
     const sleep = () => {
       return new Promise((r) => {
-        setTimeout(r, 1000);
+        setTimeout(r, 3000);
       });
     };
 
